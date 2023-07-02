@@ -1,0 +1,22 @@
+{
+  "name": "barcodeGen",
+  "version": "0.1.0",
+  "summary": "A short description of barcodeGen.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Andrei Grunenkov/barcodeGen",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrei Grunenkov": "gras4all@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Andrei Grunenkov/barcodeGen.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "barcodeGen/Classes/**/*"
+}

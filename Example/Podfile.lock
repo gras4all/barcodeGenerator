@@ -1,0 +1,16 @@
+PODS:
+  - barcodeGen (0.1.0)
+
+DEPENDENCIES:
+  - barcodeGen (from `../`)
+
+EXTERNAL SOURCES:
+  barcodeGen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  barcodeGen: ecc5938c56d57288966a7af721459c2b0f2d2031
+
+PODFILE CHECKSUM: 34bb65df18c630636fdb2cc7a4797bf2a69a0431
+
+COCOAPODS: 1.12.1

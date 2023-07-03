@@ -11,14 +11,11 @@ enum BarcodeType {
     case qr
 }
 
-protocol IBarcodeGenerator {
-    func generateBarcode(from string: String, color: CIColor, completion: @escaping (UIImage?) -> Void)
-}
-
-final class BarcodeGenerator: IBarcodeGenerator {
-    func generateBarcode(from string: String, color: CIColor, completion: @escaping (UIImage?) -> Void) {
+extension String {
+    
+    func generateBarcode(color: CIColor, completion: @escaping (UIImage?) -> Void) {
         DispatchQueue.global().async {
-            let data = string.data(using: String.Encoding.ascii)
+            let data = self.data(using: String.Encoding.ascii)
             if let filter = CIFilter(name: "CICode128BarcodeGenerator") {
                 guard let colorFilter = CIFilter(name: "CIFalseColor") else {
                     DispatchQueue.main.async {
@@ -47,5 +44,5 @@ final class BarcodeGenerator: IBarcodeGenerator {
             completion(nil)
         }
     }
+    
 }
-

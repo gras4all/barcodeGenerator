@@ -17,7 +17,7 @@ barcodeGen is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'barcodeGen'
+pod 'barcodeGen', :git => 'https://github.com/gras4all/barcodeGenerator.git'
 ```
 
 ## Author

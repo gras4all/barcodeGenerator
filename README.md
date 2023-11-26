@@ -15,7 +15,7 @@ The **BarcodeGenerator** framework is a lightweight and efficient tool for gener
 To integrate the BarcodeGenerator framework into your iOS project using CocoaPods, add the following line to your `Podfile`:
 
 ```ruby
-pod 'BarcodeGenerator' :git => 'git@github.com:gras4all/barcodeGenerator.git'
+pod 'BarcodeGenerator', :git => 'git@github.com:gras4all/barcodeGenerator.git'
 ```
 
 ### Example
